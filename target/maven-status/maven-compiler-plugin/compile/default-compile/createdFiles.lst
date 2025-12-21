@@ -1,0 +1,9 @@
+br/com/techchallenge/rating/model/utils/NotificationStatus.class
+br/com/techchallenge/rating/model/api/RatingRequest.class
+br/com/techchallenge/rating/repository/mongo/MongoClientProvider.class
+br/com/techchallenge/rating/exception/ValidationException.class
+br/com/techchallenge/rating/service/RatingService.class
+br/com/techchallenge/rating/function/CreateCourseRatingFunction.class
+br/com/techchallenge/rating/repository/RatingRepository.class
+br/com/techchallenge/rating/model/persistence/RatingDocument.class
+br/com/techchallenge/rating/model/api/RatingResult.class
