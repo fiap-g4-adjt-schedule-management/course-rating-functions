@@ -1,7 +1,7 @@
-package br.com.techchallenge.rating.model.api;
+package br.com.techchallenge.rating.model.event;
 
 
-public class RatingResult {
+public class CriticalRatingEvent {
     private String id;
     private Integer rating;
     private String description;
@@ -9,10 +9,10 @@ public class RatingResult {
     private Boolean critical;
     private String createdAt;
 
-    public RatingResult() {
+    public CriticalRatingEvent() {
     }
 
-    public RatingResult(String id, Integer rating, String description, String email, Boolean critical, String createdAt) {
+    public CriticalRatingEvent(String id, Integer rating, String description, String email, Boolean critical, String createdAt) {
         this.id = id;
         this.rating = rating;
         this.description = description;
