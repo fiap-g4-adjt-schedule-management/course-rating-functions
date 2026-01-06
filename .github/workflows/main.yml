@@ -55,12 +55,11 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: function-package
-          path: function-package
+          path: .
       
       - name: Prepare package
         run: |
           rm -f function-package/local.settings.json
-          cd function-package
           zip -r function.zip ./function-package/*
           
       - name: Azure Login (OIDC)
