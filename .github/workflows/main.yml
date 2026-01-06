@@ -56,11 +56,6 @@ jobs:
         with:
           name: function-package
           path: ./deploy-package
-      
-      - name: Prepare package
-        run: |
-          rm -f function-package/local.settings.json
-          zip -r function.zip ./function-package/*
           
       - name: Azure Login (OIDC)
         uses: azure/login@v2
