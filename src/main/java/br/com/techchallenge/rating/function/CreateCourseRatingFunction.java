@@ -37,7 +37,7 @@ public class CreateCourseRatingFunction {
             ) HttpRequestMessage<Optional<String>> request, final ExecutionContext context,
             @ServiceBusQueueOutput(
                     name = "criticalMessage",
-                    queueName = "q-ms-critical-ratings",
+                    queueName = "QUEUE_CRITICAL_NOTIFICATION",
                     connection = "SERVICE_BUS_CONNECTION"
             ) OutputBinding<String> criticalMessage) {
 
