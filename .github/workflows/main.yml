@@ -97,6 +97,11 @@ jobs:
                 "name": "QUEUE_CRITICAL_NOTIFICATION",
                 "value": "${{ vars.QUEUE_CRITICAL_NOTIFICATION }}",
                 "slotSetting": false
+              },
+              {
+                "name": "INTERNAL_SECRET_TOKEN",
+                "value": "${{ secrets.INTERNAL_SECRET_TOKEN }}",
+                "slotSetting": false
               }
             ]
 
